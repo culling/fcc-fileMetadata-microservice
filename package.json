@@ -4,9 +4,11 @@
   "description": "fcc file metatada microservice",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "postinstall": "bower install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm install && bower install",
-    "devmode": "nodemon ./server.js"
+    "dev-be": "nodemon ./server.js"
   },
   "author": "",
   "license": "ISC",
